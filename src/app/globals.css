@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-color: #f0f2fa;
+  --light-color: #05070f;
+  --dark-background: #101528;
+  --light-background: #f4f4fb;
+  --primary: #374eb3;
+  --light-primary: #4c62c8;
+  --secondary: #571f61;
+  --light-secondary: #d69ee0;
+  --accent: #8c2b76;
+  --dark-accent: #d473bd;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
